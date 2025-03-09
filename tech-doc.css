@@ -1,0 +1,8 @@
+#navbar {
+  text-align: left;
+}
+@media (max-width: 100px) {
+  .main-section {
+    font-size: 100px;
+  }
+}

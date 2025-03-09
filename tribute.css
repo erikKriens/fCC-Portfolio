@@ -1,0 +1,14 @@
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+#img-caption, #tribute-info {
+  text-align: center;
+}
+#img-div {
+  margin: auto;
+  width: 100%;
+  background-color: red;
+}

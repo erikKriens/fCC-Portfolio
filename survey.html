@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="survey.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+      <title>Survey Form Project</title>
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please answer the following questions:</p>
+    <form id="survey-form">
+      <div id="form">
+        <label id="name-label" for="name">Enter name:<input id="name" type="text" placeholder="First Last" required></label>
+        <label id="email-label" for="email">Enter email:<input required id="email" type="email" placeholder="email@example.com"></label>
+        <label id="number-label" for="number">Rate your experience so far from 1-10<input placeholder="0" id="number" type="number" min="0" max="10"></label>
+        <label for="dropdown">How much swag u got??
+          <select id="dropdown">
+            <option>(select one)</option>
+            <option>none</option>
+            <option>some</option>
+            <option>lots</option>
+          </select>
+        </label>
+        <fieldset id="swag-on">
+          <legend>Please turn swag on:</legend>
+          <label for="swag-off"><input id="swag-off" type="radio" name="swag" value="swag-off" checked>off</label>
+          <label for="swag-on"><input id="swag-on" type="radio" name="swag" value="swag-on">on</label>
+        </fieldset>
+        <fieldset class="checkboxes">
+          <legend>"No _____, no _____, and I still get service, watch" - Select two answers to fill the blanks</legend>
+            <label for="socks"><input id="socks" type="checkbox" value="socks">Socks</label>
+            <label for="shoes"><input id="shoes" type="checkbox" value="shoes">Shoes</label>
+            <label for="pants" class="pants"><input id="pants" type="checkbox" value="pants">Pants</label>
+            <label for="shirt" class="shirt"><input id="shirt" type="checkbox" value="shirt">Shirt</label>
+        </fieldset>
+        <label for="comments">Any comments/concerns?<textarea id="comments" placeholder="enter comments/concerns"></textarea></label>
+      </div>
+      <button type="submit" id="submit">Submit Survey</button>
+    </form>
+  </body>
+</html>

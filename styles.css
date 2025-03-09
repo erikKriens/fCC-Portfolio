@@ -1,0 +1,115 @@
+body {
+  background-color: rgb(83, 83, 83);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+#welcome-section {
+  text-align: center;
+  background-color: rgb(139, 30, 30);
+  color: rgb(190, 174, 174);
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+}
+#welcome-section h1 {
+  font-size: 5em;
+  margin: 0;
+}
+#welcome-section p {
+  font-size: 1.5em;
+}
+#projects {
+  margin: auto;
+  text-align: center;
+}
+.project-tile {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin: 20px;
+  vertical-align: bottom;
+}
+@media (max-width: 675px) {
+  .project-tile {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    font-size: 1.5em
+  }
+}
+#projects h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 0;
+  color: white;
+  font-size: 2em;
+  border-bottom: 1px solid white;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#navbar {
+  background-color: rgb(75, 76, 104);
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  gap: 1em;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+#navbar a:first-of-type {
+  margin-left: 1em;
+}
+#contact {
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  text-align: center;
+}
+#contact h1 {
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#contact a {
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.project-img {
+    width: 100%;
+    height: 65%;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.project-tile a {
+    color: red;
+    text-decoration: none;
+    font-size: 1.26em;
+    font-weight: bold;
+}
