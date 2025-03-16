@@ -3,6 +3,7 @@
   height: auto;
   display: block;
   margin: auto;
+  width: 50%;
 }
 #img-caption, #tribute-info {
   text-align: center;
@@ -10,5 +11,34 @@
 #img-div {
   margin: auto;
   width: 100%;
-  background-color: red;
+  background-color: #c4c4ff; 
+}
+p {
+  text-align: center;
+}
+#built {
+  margin-top: -1em;
+}
+#build-details h2 {
+  text-align: center;
+}
+#build-details ul {
+  margin: auto;
+  font-size: 1.2em;
+  width: fit-content;
+}
+#build-details li {
+  margin-bottom: 1em;
+}
+.list-caption {
+  margin-top: 0;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 1em;
+}
+body {
+  background-color: #d3d3e9;
+}
+#heading {
+  background-color: #d3d3e9;
 }

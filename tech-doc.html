@@ -5,68 +5,95 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Documentation Page</title>
-    <link rel="icon" type="image/x-icon" href="project-imgs/E.jpg">
   </head>
   <body>
     <main id="main-doc">
       <nav id="navbar">
-        <header>Technical Document Project</header>
-        <a class="nav-link" href="#Topic_1">Topic 1</a>
-        <a class="nav-link" href="#Topic_2">Topic 2</a>
-        <a class="nav-link" href="#Topic_3">Topic 3</a>
-        <a class="nav-link" href="#Topic_4">Topic 4</a>
-        <a class="nav-link" href="#Topic_5">Topic 5</a>
+        <header id="heading">HTML/CSS I used to make this page</header>
+        <div id="navbar-background">
+          <a class="nav-link" href="#Navigation_Bar">Navigation Bar</a>
+          <a class="nav-link" href="#Unordered_List">Unordered List</a>
+          <a class="nav-link" href="#Paragraph">Paragraph</a>
+          <a class="nav-link" href="#CSS">CSS</a>
+          <a class="nav-link" href="#View_Code">View Code</a>
+        </div>
       </nav>
-      <section class="main-section" id="Topic_1">
-        <header>Topic 1</header>
-        <p>p1.1</p>
-        <p>p1.2</p>
-        <p>p1.3</p>
-        <p>p1.4</p>
-        <code>code1.1</code>
-        <code>code1.2</code>
-        <li>li1.1</li>
-        <li>li1.2</li>
+      <section class="main-section" id="Navigation_Bar">
+        <header>Navigation Bar</header>
+        <p>Using a nav element I created a navigation bar at the top of the page that helps users navigate the page. Clicking a link will take you to the relevant section of the page.</p>
+        <p>This is done by giving the text a link that links to another element within the page rather than an outside source, like this:</p>
+        <code>
+          &lt;nav&gt;
+          <br>
+          &nbsp; &lt;a href="[element-id]"&gt;text&lt;/a&gt;
+          <br>
+          &lt;/nav&gt;
+        </code>
+        <ul>
+          <li>You'll see this on most websites styled in many different ways</li>
+          <li>My example is for navigating one page, but it is also often used to navigate between multiple pages of a website where you would link to a seperate page rather than a specific element</li>
+        </ul>
       </section>
-      <section class="main-section" id="Topic_2">
-        <header>Topic 2</header>
-        <p>p2.1</p>
-        <p>p2.2</p>
-        <p>p2.3</p>
-        <code>code2.1</code>
-        <code>code2.2</code>
-        <li>li2.1</li>
-        <li>li2.2</li>
+      <section class="main-section" id="Unordered_List">
+        <header>Unordered List</header>
+        <p>I'm using ul elements to create the bullet point sections of the page. These are called unordered lists, similarly there are also ordered lists (&lt;or&gt;&lt;/or&gt;) which are numbered rather than bullet pointed.</p>
+        <p>Within the list there are li elements (list items) and this is the text that you want to have the bullet points.</p>
+        <code>
+          &lt;ul&gt;
+          <br>
+          &nbsp; &lt;li&gt;text&lt;/li&gt;
+          <br>
+          &nbsp; &lt;li&gt;text&lt;/li&gt;
+          <br>
+          &lt;/ul&gt;
+        </code>
+        <ul>
+          <li>This text is an example of how a list item displays</li>
+        </ul>
       </section>
-      <section class="main-section" id="Topic_3">
-        <header>Topic 3</header>
-        <p>p3.1</p>
-        <p>p3.2</p>
-        <p>p3.3</p>
-        <code>code3.1</code>
-        <li>li3.1</li>
+      <section class="main-section" id="Paragraph">
+        <header>Paragraph</header>
+        <p>The p element is used to write paragraphs. It is useful when you want a large body of text or a just text that is smaller than a heading or title of some kind since it is not bold or very large by default.</p>
+        <p>This section of text and others on the page like it are all p elements. Im using two seperate p elements here to seperate the paragraphs with spacing between them.</p>
+        <code>
+          &lt;p&gt;paragraph text&lt;/p&gt;
+          <br>
+          &lt;p&gt;second paragraph text&lt;/p&gt;
+        </code>
+        <ul>
+          <li>Although it is small and undecorated by default, the paragraph text can be styled to be larger, bold, italicized, etc. like any other element</li>
+        </ul>
       </section>
-      <section class="main-section" id="Topic_4">
-        <header>Topic 4</header>
-        <p>p4.1</p>
-        <p>p4.2</p>
-        <p>p4.3</p>
-        <p>p4.4</p>
-        <code>code4.1</code>
-        <code>code4.2</code>
-        <li>li4.1</li>
-        <li>li4.2</li>
+      <section class="main-section" id="CSS">
+        <header>CSS</header>
+        <p>CSS is used in addition to HTML to style it. Without CSS all of the elements of the page would be plain - without color, without alignment/centering, without styled text(bold, size differences), etc.</p>
+        <p>There are many things you can do with CSS. Put simply, it is how you put elements in the place you want them, make them look the way you want them to look, and act the way you want them to act.</p>
+        <code>
+          element {
+          <br>
+          &nbsp;property: value;
+          <br>
+          }
+        </code>
+        <ul>
+          <li>The property is want you want to change about the element and the value is what you want to change the property to</li>
+          <li>An example would be the property "background-color" with the value then being a color that you want the elements background to change to. Heres how it would look:</li>
+        </ul>
+        <div id="code-indented">
+          <code>
+            body {
+            <br>
+            &nbsp;background-color: red;
+            <br>
+            }
+          </code>
+        </div>
       </section>
-      <section class="main-section" id="Topic_5">
-        <header>Topic 5</header>
-        <p>p5.1</p>
-        <p>p5.2</p>
-        <p>p5.3</p>
-        <p>p5.4</p>
-        <code>code5.1</code>
-        <code>code5.2</code>
-        <li>li5.1</li>
-        <li>li5.2</li>
+      <section class="main-section" id="View_Code">
+        <header>View Code</header>
+        <p>If you want to check out all of the actual code I used to make this page you can use your browser's inspect option. Most browsers allow you to inspect the page by right clicking and selecting "Inspect" or "Inspect Element".</p>
+        <p>This will show you all the lines of code I've written for this page. There should be seperate sections for the HTML, which will usually be under the "Elements" tab, and CSS, which is usually under the "Styles" tab.</p>
+        <p>I haven't described everything I've done here, only some of the things I used, so check it out and see what else it took to make this page.</p>
       </section>
     </main>
   </body>
