@@ -33,8 +33,6 @@ header {
 body {
   background-color: #ececec;
   min-width: 700px;
-  padding: 0;
-  margin: 0;
 }
 #code-indented {
   width: fit-content;
