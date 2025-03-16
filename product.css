@@ -1,3 +1,4 @@
+
 #header {
   display: flex;
   flex-direction: column;
@@ -7,7 +8,7 @@
   max-height: 10%;
 }
 #nav-bar-static {
-  font-size: 1.34rem;
+  font-size: 1.34em;
   align-items: center;
   background-color: #b2acac;
   width: 100%;
@@ -15,9 +16,10 @@
   height: fit-content;
   padding-bottom: .5em;
   padding-top: .5em;
+  min-width: 525px;
 }
 #nav-bar {
-  font-size: 1.34rem;
+  font-size: 1.34em;
   align-items: center;
   position: fixed;
   background-color: #b2acac;
@@ -25,8 +27,9 @@
   margin: 0;
   height: fit-content;
   padding: .5em;
+  min-width: 525px;
 }
-#nav-bar a {
+#nav-bar a, #nav-bar-static a {
   color: black;
   text-decoration: none;
   margin: 1em;
@@ -62,6 +65,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fff4e3;
+  min-width: 525px;
 }
 .product-image {
   width: 75%;
