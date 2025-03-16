@@ -1,9 +1,8 @@
 #image {
-  max-width: 100%;
   height: auto;
   display: block;
   margin: auto;
-  width: 50%;
+  width: 25%;
 }
 #img-caption, #tribute-info {
   text-align: center;
